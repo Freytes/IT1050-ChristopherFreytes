@@ -10,6 +10,11 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World from Christopher Freytes");
+
+            //Keeps Console Window Open
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
     }
 }
