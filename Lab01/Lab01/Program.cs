@@ -10,7 +10,7 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0}\n{1}", "Welcome to ", "C# Programming!");
+            Console.WriteLine("Hello World from Christopher Freytes!");
 
             // Keep the console window open
             Console.WriteLine("Press any key to exit.");
