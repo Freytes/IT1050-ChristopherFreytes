@@ -114,7 +114,7 @@ namespace Lab04
             {
                 Console.WriteLine(numbers);
                 numbers++;
-            }
+            } 
 
             /* 8. The following statement is supposed to output every number from 0-100 separated by a line with asterisks on it.  
              * What is wrong with the code? 
