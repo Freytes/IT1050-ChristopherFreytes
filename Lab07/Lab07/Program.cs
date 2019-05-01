@@ -8,11 +8,10 @@ namespace Lab07
 {
     /* 3. Before adding a constructor method, describe what is called when we create an instance of type Book?
        
-       A: Constructors are uncommon routines used to introduce types and make occasions of types. A type constructor 
-       is utilized to instate static information in a type. A type constructor is called by the common language runtime 
-       (CLR) before any occurrences of the type are made. Type constructors are static (Shared in Visual Basic) and can't 
-       take parameters. A case constructor is utilized to make examples of a type. Occasion constructors can take parameters, 
-       yet are not required to do as such. An occasion constructor without any parameters is known as a default constructor.
+       A: A constructor is a special method of the class which gets automatically invoked whenever an instance of the class is created.
+       Like methods, a constructor also contains the collection of instructions that are executed at the time of Object creation. Before adding
+       the constructor method the class is called 'Book' which contains the parameters of the variables. Then the constructor 'Booktest' is created to
+       pass on the needed variables. 
  
      */
 
@@ -34,7 +33,8 @@ namespace Lab07
         Private access modifier is the most restrictive access level. Class and interfaces cannot be private.
         Variables that are declared private can be accessed outside the class if public getter methods are present in the class.
         Using the private modifier is the main way that an object encapsulates itself and hide data from the outside world.
-            PUBLIC
+        
+        PUBLIC
         Visible to the world (public).
         A class, method, constructor, interface etc declared public can be accessed from any other class. Therefore fields, methods, blocks declared inside a public 
         class can be accessed from any class belonging to the Java Universe. However if the public class we are trying to access is in a different package, then the public 
