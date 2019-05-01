@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Lab07
 {
     /* 3. Before adding a constructor method, describe what is called when we create an instance of type Book?
+       
        A: Constructors are uncommon routines used to introduce types and make occasions of types. A type constructor 
        is utilized to instate static information in a type. A type constructor is called by the common language runtime 
        (CLR) before any occurrences of the type are made. Type constructors are static (Shared in Visual Basic) and can't 
@@ -16,10 +17,12 @@ namespace Lab07
      */
 
     /* 4. What concept would we be practicing if we created two new constructor methods? 
+       
        A: New constructor method create a new function in C#    
      */
 
     /* 5. Why is it important to use exception handling?
+       
        A: Exception handling is important for handling exceptions in the program. We can easily handle them by using try 
        catch blocks.     
      */
@@ -40,12 +43,9 @@ namespace Lab07
      */
 
     /* 7. What is composition?  How could we use Composition in our Book class?
-       A: In the visual arts—in unique painting, image design, images, and sculpture—composition is the placement or association of visual factors or constituents 
-       in a work of art, as particular from the field of a piece. It can be proposal of because the institution of the elements of artwork in step with the principles of art.
-       The term composition manner 'putting together,' and can observe to any work of art, from track to writing to images, that's organized or put collectively utilizing mindful inspiration. 
-       In the visible arts, composition is ordinarily used interchangeably with various phrases such as design, form, visual ordering, or formal structure, depending on the context. In photo design 
-       for press and desktop publishing composition is probably known as web page layout.
-   
+       A: Composition over inheritance (or composite reuse principle) in object-oriented programming (OOP) is the principle that classes should achieve polymorphic behavior 
+       and code reuse by their composition (by containing instances of other classes that implement the desired functionality) rather than inheritance from a base or parent class.
+       Composition is used in our book class, when we use our constructor 'BookTest' to reference values from with the Book class.
      */
 
     /* 8. What is data abstraction?
